@@ -1,0 +1,210 @@
+.bg-dark {
+    background-color: #0f4c5a !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 28px;
+}
+
+.navbar-dark .navbar-nav .nav-link .nav-item {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+
+/* carousel */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item h5 {
+    color: rgb(255, 196, 0);
+}
+
+.carousel-caption {
+    bottom: 250px;
+}
+
+.carousel-caption h5 {
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-family: Impact;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 23px;
+    letter-spacing: 3px;
+    line-height: 2.1;
+    font-family: impact;
+    font-style: bold;
+    color: rgb(230, 245, 20);
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: rgb(214, 20, 20);
+    padding: 10px 30px;
+    display: line-block;
+    margin-top: 15px;
+}
+/* carousel */
+.navbar-nav a {
+    font-family: georgia;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-brand {
+    color: #31d9f7;
+    letter-spacing: 3px;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: rgb(28, 110, 3);
+}
+
+
+/* Features */
+
+.features {
+    padding: 55px 0;
+    text-align: center;
+    background-color: #04204A;
+}
+
+.features h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: cornsilk;
+    font-style: times;
+}
+
+.features .card {
+    border: 3px solid #31eaf7;
+}
+
+.features .card-body {
+    padding: 1.25rem .9rem;
+    background-color: rgb(29, 28, 28);
+}
+
+.features .card-body .card-title {
+    font-weight: 700;
+}
+
+.features .card-body .card-title {
+    color: rgb(19, 169, 189);
+}
+
+.features .btn-primary {
+    color: rgb(192, 224, 7);
+    background-color: rgb(48, 6, 128);
+    border-color: #dddddd;
+}
+
+.features.btn-primary:hover {
+    color: #04204A;
+    background-color: antiquewhite;
+    border-color: brown;
+}
+
+.features .card-text {
+    color: rosybrown;
+}
+
+
+/* information */
+
+.information {
+    padding: 55px o;
+    text-align: center;
+    background-color: rgb(25, 187, 179);
+}
+
+.information h1 {
+    font-size: 50px;
+    margin-bottom: 55px;
+    color: #071013;
+    font-family: fantasy;
+}
+
+.information .figure {
+    margin-top: 28px;
+}
+
+.figure-caption {
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 850;
+    margin-top: 5px;
+    color: #151807;
+}
+
+
+/*about */
+
+.body {
+    background-color: rgb(255, 255, 255);
+}
+
+.content-section {
+    margin: 1em;
+    max-width: 900px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+.section-header {
+    font-family: "mental mania";
+    font-weight: bolder;
+    color: rgb(0, 19, 124);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-lol-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 40%;
+}
+
+.footer-nav img {
+    width: 10px;
+    height: 5px;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
